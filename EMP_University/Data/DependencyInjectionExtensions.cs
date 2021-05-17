@@ -1,6 +1,5 @@
-﻿using Common.Interfaces;
+﻿using Data.Models;
 
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +15,7 @@ namespace Data
         {
             return services
                 .AddEMPUniDatabase<EMPUniDbContext>(configuration: configuration)
-                .AddEMPUniDatabaseInterface()
+                ////.AddEMPUniDatabaseInterface()
                 .AddEMPUniIdentity();
         }
 
@@ -34,14 +33,14 @@ namespace Data
                     configuration.GetConnectionString("DefaultConnection")));
         }
 
-        private static IServiceCollection AddEMPUniDatabaseInterface([NotNull] this IServiceCollection services)
-        {
-            return services.AddScoped<IEMPUniDbContext>(provider => provider.GetService<EMPUniDbContext>());
-        }
+        ////private static IServiceCollection AddEMPUniDatabaseInterface([NotNull] this IServiceCollection services)
+        ////{
+        ////    return services.AddScoped<IEMPUniDbContext>(provider => provider.GetService<EMPUniDbContext>());
+        ////}
 
         private static IServiceCollection AddEMPUniIdentity([NotNull] this IServiceCollection services)
         {
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<Student>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<EMPUniDbContext>();
 
             return services;

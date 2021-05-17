@@ -24,6 +24,14 @@
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
       <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
     </Compile>
+    <Compile Update="Migrations\20210517114606_AddCourses.cs">
+      <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Update="Migrations\20210517123215_SeedDemoData.cs">
+      <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
     <Compile Update="Migrations\EMPUniDbContextModelSnapshot.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
       <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>

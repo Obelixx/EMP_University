@@ -2,5 +2,6 @@
 {
     public interface IEMPUniDbContext
     {
+        // TODO: add useful methods
     }
 }

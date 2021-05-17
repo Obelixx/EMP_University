@@ -15,9 +15,9 @@
 	- [x] Create new MVC Project with default Authentication.
 	- [x] Create git repository.
 	- [x] Move database related code to separate project.
-	- [ ] Write database models.
+	- [x] Write database models.
 	- [x] (Add migrations.) They are on by default.
-	- [ ] Create method to fill demo data.
+	- [x] Create methods to fill demo data.
 	- [ ] Add "service" methods that provide data (for example: Courses lists with paging).
 	- [ ] A bit front-end - 4 tabs, two lists.
 
@@ -31,7 +31,10 @@
 	- Document your code - where necessary.
 	- Use latest .Net Core MVC -> .Net 5.0
 	- Tiers in brackets - it is important. Create many tiers. Consider clean architecture.
-	- No "Domain" project needed, or a slim one.
-	
+	- No "Domain" project needed, or maybe a slim one.
+	- Demo data users: 
+		- 5 users with user/pass format:
+		- test{0}@example.com / "Pass@word{0}"
+		- For Example: test1@example.com / "Pass@word1"
 	
 	
