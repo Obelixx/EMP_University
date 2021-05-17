@@ -1,4 +1,5 @@
-﻿using Common.Models;
+﻿using Common.Interfaces;
+using Common.Models;
 
 using Data.Models;
 
@@ -11,7 +12,7 @@ using System.Collections.Generic;
 
 namespace Data
 {
-    internal class EMPUniDbContext : IdentityDbContext
+    internal class EMPUniDbContext : IdentityDbContext, IEMPUniDbContext
     {
         public EMPUniDbContext(DbContextOptions<EMPUniDbContext> options)
             : base(options)
@@ -21,6 +22,8 @@ namespace Data
         public DbSet<Course> Courses { get; set; }
 
         public DbSet<Student> Students { get; set; }
+
+        public DbSet<StudentCourse> StudentCourse { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -72,15 +75,18 @@ namespace Data
             var result = new List<Student>(count);
             var passwordHasher = new PasswordHasher<Student>();
 
-            var userFormat = "test{0}@example.com";
+            var emailFormat = "test{0}@example.com";
             var plainPasswordFormat = "Pass@word{0}";
             for (int i = 1; i <= count; i++)
             {
+                var email = string.Format(emailFormat, i);
                 var newStudent = new Student()
                 {
-                    Id = Guid.NewGuid().ToString(),
-                    Email = string.Format(userFormat, i),
-                    UserName = string.Format(userFormat, i),
+                    Id = i.ToString(),
+                    Email = email,
+                    UserName = email,
+                    NormalizedEmail = email,
+                    NormalizedUserName = email,
                     EmailConfirmed = true,
                     PasswordHash = passwordHasher.HashPassword(null, string.Format(plainPasswordFormat, i)),
                 };
@@ -109,7 +115,7 @@ namespace Data
             var courseDescriptionFormat = "Cours_{0:D3}";
             for (int i = 1; i <= count; i++)
             {
-                var start = DateTime.Now.AddDays(i);
+                var start = new DateTime(2022, 1, 1).AddDays(i);
                 var end = start.AddHours(2);
                 var newCourse = new Course() { Id = i, Name = string.Format(courseNameFormat, i), Description = string.Format(courseDescriptionFormat, i), Start = start, Ends = end };
 

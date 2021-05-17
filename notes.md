@@ -34,7 +34,7 @@
 	- No "Domain" project needed, or maybe a slim one.
 	- Demo data users: 
 		- 5 users with user/pass format:
-		- test{0}@example.com / "Pass@word{0}"
-		- For Example: test1@example.com / "Pass@word1"
+		- test{0}@example.com / Pass@word{0}
+		- For Example: test1@example.com / Pass@word1
 	
 	

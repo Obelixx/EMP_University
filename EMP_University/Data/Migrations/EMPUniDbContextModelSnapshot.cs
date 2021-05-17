@@ -50,401 +50,401 @@ namespace Data.Migrations
                         {
                             Id = 1,
                             Description = "Cours_001",
-                            Ends = new DateTime(2021, 5, 18, 17, 32, 14, 550, DateTimeKind.Local).AddTicks(1466),
+                            Ends = new DateTime(2022, 1, 2, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_001",
-                            Start = new DateTime(2021, 5, 18, 15, 32, 14, 550, DateTimeKind.Local).AddTicks(1466)
+                            Start = new DateTime(2022, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 2,
                             Description = "Cours_002",
-                            Ends = new DateTime(2021, 5, 19, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2476),
+                            Ends = new DateTime(2022, 1, 3, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_002",
-                            Start = new DateTime(2021, 5, 19, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2476)
+                            Start = new DateTime(2022, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 3,
                             Description = "Cours_003",
-                            Ends = new DateTime(2021, 5, 20, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2537),
+                            Ends = new DateTime(2022, 1, 4, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_003",
-                            Start = new DateTime(2021, 5, 20, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2537)
+                            Start = new DateTime(2022, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 4,
                             Description = "Cours_004",
-                            Ends = new DateTime(2021, 5, 21, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2551),
+                            Ends = new DateTime(2022, 1, 5, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_004",
-                            Start = new DateTime(2021, 5, 21, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2551)
+                            Start = new DateTime(2022, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 5,
                             Description = "Cours_005",
-                            Ends = new DateTime(2021, 5, 22, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2563),
+                            Ends = new DateTime(2022, 1, 6, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_005",
-                            Start = new DateTime(2021, 5, 22, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2563)
+                            Start = new DateTime(2022, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 6,
                             Description = "Cours_006",
-                            Ends = new DateTime(2021, 5, 23, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2575),
+                            Ends = new DateTime(2022, 1, 7, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_006",
-                            Start = new DateTime(2021, 5, 23, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2575)
+                            Start = new DateTime(2022, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 7,
                             Description = "Cours_007",
-                            Ends = new DateTime(2021, 5, 24, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2587),
+                            Ends = new DateTime(2022, 1, 8, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_007",
-                            Start = new DateTime(2021, 5, 24, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2587)
+                            Start = new DateTime(2022, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 8,
                             Description = "Cours_008",
-                            Ends = new DateTime(2021, 5, 25, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2599),
+                            Ends = new DateTime(2022, 1, 9, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_008",
-                            Start = new DateTime(2021, 5, 25, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2599)
+                            Start = new DateTime(2022, 1, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 9,
                             Description = "Cours_009",
-                            Ends = new DateTime(2021, 5, 26, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2610),
+                            Ends = new DateTime(2022, 1, 10, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_009",
-                            Start = new DateTime(2021, 5, 26, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2610)
+                            Start = new DateTime(2022, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 10,
                             Description = "Cours_010",
-                            Ends = new DateTime(2021, 5, 27, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2621),
+                            Ends = new DateTime(2022, 1, 11, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_010",
-                            Start = new DateTime(2021, 5, 27, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2621)
+                            Start = new DateTime(2022, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 11,
                             Description = "Cours_011",
-                            Ends = new DateTime(2021, 5, 28, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2632),
+                            Ends = new DateTime(2022, 1, 12, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_011",
-                            Start = new DateTime(2021, 5, 28, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2632)
+                            Start = new DateTime(2022, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 12,
                             Description = "Cours_012",
-                            Ends = new DateTime(2021, 5, 29, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2643),
+                            Ends = new DateTime(2022, 1, 13, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_012",
-                            Start = new DateTime(2021, 5, 29, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2643)
+                            Start = new DateTime(2022, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 13,
                             Description = "Cours_013",
-                            Ends = new DateTime(2021, 5, 30, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2654),
+                            Ends = new DateTime(2022, 1, 14, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_013",
-                            Start = new DateTime(2021, 5, 30, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2654)
+                            Start = new DateTime(2022, 1, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 14,
                             Description = "Cours_014",
-                            Ends = new DateTime(2021, 5, 31, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2665),
+                            Ends = new DateTime(2022, 1, 15, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_014",
-                            Start = new DateTime(2021, 5, 31, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2665)
+                            Start = new DateTime(2022, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 15,
                             Description = "Cours_015",
-                            Ends = new DateTime(2021, 6, 1, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2676),
+                            Ends = new DateTime(2022, 1, 16, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_015",
-                            Start = new DateTime(2021, 6, 1, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2676)
+                            Start = new DateTime(2022, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 16,
                             Description = "Cours_016",
-                            Ends = new DateTime(2021, 6, 2, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2688),
+                            Ends = new DateTime(2022, 1, 17, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_016",
-                            Start = new DateTime(2021, 6, 2, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2688)
+                            Start = new DateTime(2022, 1, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 17,
                             Description = "Cours_017",
-                            Ends = new DateTime(2021, 6, 3, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2699),
+                            Ends = new DateTime(2022, 1, 18, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_017",
-                            Start = new DateTime(2021, 6, 3, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2699)
+                            Start = new DateTime(2022, 1, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 18,
                             Description = "Cours_018",
-                            Ends = new DateTime(2021, 6, 4, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2710),
+                            Ends = new DateTime(2022, 1, 19, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_018",
-                            Start = new DateTime(2021, 6, 4, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2710)
+                            Start = new DateTime(2022, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 19,
                             Description = "Cours_019",
-                            Ends = new DateTime(2021, 6, 5, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2720),
+                            Ends = new DateTime(2022, 1, 20, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_019",
-                            Start = new DateTime(2021, 6, 5, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2720)
+                            Start = new DateTime(2022, 1, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 20,
                             Description = "Cours_020",
-                            Ends = new DateTime(2021, 6, 6, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2731),
+                            Ends = new DateTime(2022, 1, 21, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_020",
-                            Start = new DateTime(2021, 6, 6, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2731)
+                            Start = new DateTime(2022, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 21,
                             Description = "Cours_021",
-                            Ends = new DateTime(2021, 6, 7, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2742),
+                            Ends = new DateTime(2022, 1, 22, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_021",
-                            Start = new DateTime(2021, 6, 7, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2742)
+                            Start = new DateTime(2022, 1, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 22,
                             Description = "Cours_022",
-                            Ends = new DateTime(2021, 6, 8, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2752),
+                            Ends = new DateTime(2022, 1, 23, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_022",
-                            Start = new DateTime(2021, 6, 8, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2752)
+                            Start = new DateTime(2022, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 23,
                             Description = "Cours_023",
-                            Ends = new DateTime(2021, 6, 9, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2763),
+                            Ends = new DateTime(2022, 1, 24, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_023",
-                            Start = new DateTime(2021, 6, 9, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2763)
+                            Start = new DateTime(2022, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 24,
                             Description = "Cours_024",
-                            Ends = new DateTime(2021, 6, 10, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2774),
+                            Ends = new DateTime(2022, 1, 25, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_024",
-                            Start = new DateTime(2021, 6, 10, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2774)
+                            Start = new DateTime(2022, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 25,
                             Description = "Cours_025",
-                            Ends = new DateTime(2021, 6, 11, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2784),
+                            Ends = new DateTime(2022, 1, 26, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_025",
-                            Start = new DateTime(2021, 6, 11, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2784)
+                            Start = new DateTime(2022, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 26,
                             Description = "Cours_026",
-                            Ends = new DateTime(2021, 6, 12, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2795),
+                            Ends = new DateTime(2022, 1, 27, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_026",
-                            Start = new DateTime(2021, 6, 12, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2795)
+                            Start = new DateTime(2022, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 27,
                             Description = "Cours_027",
-                            Ends = new DateTime(2021, 6, 13, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2806),
+                            Ends = new DateTime(2022, 1, 28, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_027",
-                            Start = new DateTime(2021, 6, 13, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2806)
+                            Start = new DateTime(2022, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 28,
                             Description = "Cours_028",
-                            Ends = new DateTime(2021, 6, 14, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2816),
+                            Ends = new DateTime(2022, 1, 29, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_028",
-                            Start = new DateTime(2021, 6, 14, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2816)
+                            Start = new DateTime(2022, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 29,
                             Description = "Cours_029",
-                            Ends = new DateTime(2021, 6, 15, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2827),
+                            Ends = new DateTime(2022, 1, 30, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_029",
-                            Start = new DateTime(2021, 6, 15, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2827)
+                            Start = new DateTime(2022, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 30,
                             Description = "Cours_030",
-                            Ends = new DateTime(2021, 6, 16, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2838),
+                            Ends = new DateTime(2022, 1, 31, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_030",
-                            Start = new DateTime(2021, 6, 16, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2838)
+                            Start = new DateTime(2022, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 31,
                             Description = "Cours_031",
-                            Ends = new DateTime(2021, 6, 17, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2848),
+                            Ends = new DateTime(2022, 2, 1, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_031",
-                            Start = new DateTime(2021, 6, 17, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2848)
+                            Start = new DateTime(2022, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 32,
                             Description = "Cours_032",
-                            Ends = new DateTime(2021, 6, 18, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2859),
+                            Ends = new DateTime(2022, 2, 2, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_032",
-                            Start = new DateTime(2021, 6, 18, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2859)
+                            Start = new DateTime(2022, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 33,
                             Description = "Cours_033",
-                            Ends = new DateTime(2021, 6, 19, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2870),
+                            Ends = new DateTime(2022, 2, 3, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_033",
-                            Start = new DateTime(2021, 6, 19, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2870)
+                            Start = new DateTime(2022, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 34,
                             Description = "Cours_034",
-                            Ends = new DateTime(2021, 6, 20, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2880),
+                            Ends = new DateTime(2022, 2, 4, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_034",
-                            Start = new DateTime(2021, 6, 20, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2880)
+                            Start = new DateTime(2022, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 35,
                             Description = "Cours_035",
-                            Ends = new DateTime(2021, 6, 21, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2891),
+                            Ends = new DateTime(2022, 2, 5, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_035",
-                            Start = new DateTime(2021, 6, 21, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2891)
+                            Start = new DateTime(2022, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 36,
                             Description = "Cours_036",
-                            Ends = new DateTime(2021, 6, 22, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2902),
+                            Ends = new DateTime(2022, 2, 6, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_036",
-                            Start = new DateTime(2021, 6, 22, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2902)
+                            Start = new DateTime(2022, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 37,
                             Description = "Cours_037",
-                            Ends = new DateTime(2021, 6, 23, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2975),
+                            Ends = new DateTime(2022, 2, 7, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_037",
-                            Start = new DateTime(2021, 6, 23, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2975)
+                            Start = new DateTime(2022, 2, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 38,
                             Description = "Cours_038",
-                            Ends = new DateTime(2021, 6, 24, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(2990),
+                            Ends = new DateTime(2022, 2, 8, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_038",
-                            Start = new DateTime(2021, 6, 24, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(2990)
+                            Start = new DateTime(2022, 2, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 39,
                             Description = "Cours_039",
-                            Ends = new DateTime(2021, 6, 25, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3001),
+                            Ends = new DateTime(2022, 2, 9, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_039",
-                            Start = new DateTime(2021, 6, 25, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3001)
+                            Start = new DateTime(2022, 2, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 40,
                             Description = "Cours_040",
-                            Ends = new DateTime(2021, 6, 26, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3012),
+                            Ends = new DateTime(2022, 2, 10, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_040",
-                            Start = new DateTime(2021, 6, 26, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3012)
+                            Start = new DateTime(2022, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 41,
                             Description = "Cours_041",
-                            Ends = new DateTime(2021, 6, 27, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3023),
+                            Ends = new DateTime(2022, 2, 11, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_041",
-                            Start = new DateTime(2021, 6, 27, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3023)
+                            Start = new DateTime(2022, 2, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 42,
                             Description = "Cours_042",
-                            Ends = new DateTime(2021, 6, 28, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3034),
+                            Ends = new DateTime(2022, 2, 12, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_042",
-                            Start = new DateTime(2021, 6, 28, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3034)
+                            Start = new DateTime(2022, 2, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 43,
                             Description = "Cours_043",
-                            Ends = new DateTime(2021, 6, 29, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3045),
+                            Ends = new DateTime(2022, 2, 13, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_043",
-                            Start = new DateTime(2021, 6, 29, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3045)
+                            Start = new DateTime(2022, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 44,
                             Description = "Cours_044",
-                            Ends = new DateTime(2021, 6, 30, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3055),
+                            Ends = new DateTime(2022, 2, 14, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_044",
-                            Start = new DateTime(2021, 6, 30, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3055)
+                            Start = new DateTime(2022, 2, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 45,
                             Description = "Cours_045",
-                            Ends = new DateTime(2021, 7, 1, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3066),
+                            Ends = new DateTime(2022, 2, 15, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_045",
-                            Start = new DateTime(2021, 7, 1, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3066)
+                            Start = new DateTime(2022, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 46,
                             Description = "Cours_046",
-                            Ends = new DateTime(2021, 7, 2, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3077),
+                            Ends = new DateTime(2022, 2, 16, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_046",
-                            Start = new DateTime(2021, 7, 2, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3077)
+                            Start = new DateTime(2022, 2, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 47,
                             Description = "Cours_047",
-                            Ends = new DateTime(2021, 7, 3, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3087),
+                            Ends = new DateTime(2022, 2, 17, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_047",
-                            Start = new DateTime(2021, 7, 3, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3087)
+                            Start = new DateTime(2022, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 48,
                             Description = "Cours_048",
-                            Ends = new DateTime(2021, 7, 4, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3098),
+                            Ends = new DateTime(2022, 2, 18, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_048",
-                            Start = new DateTime(2021, 7, 4, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3098)
+                            Start = new DateTime(2022, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 49,
                             Description = "Cours_049",
-                            Ends = new DateTime(2021, 7, 5, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3109),
+                            Ends = new DateTime(2022, 2, 19, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_049",
-                            Start = new DateTime(2021, 7, 5, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3109)
+                            Start = new DateTime(2022, 2, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 50,
                             Description = "Cours_050",
-                            Ends = new DateTime(2021, 7, 6, 17, 32, 14, 556, DateTimeKind.Local).AddTicks(3119),
+                            Ends = new DateTime(2022, 2, 20, 2, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Cours_050",
-                            Start = new DateTime(2021, 7, 6, 15, 32, 14, 556, DateTimeKind.Local).AddTicks(3119)
+                            Start = new DateTime(2022, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -467,32 +467,32 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            StudentId = "73b3ca4e-5343-4df8-ac30-fd32aeb1e356",
+                            StudentId = "1",
                             CourseId = 1
                         },
                         new
                         {
-                            StudentId = "73b3ca4e-5343-4df8-ac30-fd32aeb1e356",
+                            StudentId = "1",
                             CourseId = 2
                         },
                         new
                         {
-                            StudentId = "73b3ca4e-5343-4df8-ac30-fd32aeb1e356",
+                            StudentId = "1",
                             CourseId = 3
                         },
                         new
                         {
-                            StudentId = "a38dc379-4cc1-414b-b3a2-d97f4defe8c7",
+                            StudentId = "2",
                             CourseId = 4
                         },
                         new
                         {
-                            StudentId = "a38dc379-4cc1-414b-b3a2-d97f4defe8c7",
+                            StudentId = "2",
                             CourseId = 5
                         },
                         new
                         {
-                            StudentId = "a38dc379-4cc1-414b-b3a2-d97f4defe8c7",
+                            StudentId = "2",
                             CourseId = 6
                         });
                 });
@@ -712,71 +712,71 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "73b3ca4e-5343-4df8-ac30-fd32aeb1e356",
+                            Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6ffe4da2-05c9-4fe8-a33e-ea0e70bc1843",
+                            ConcurrencyStamp = "9115fc36-3f95-456b-b6bb-861bbf5e0846",
                             Email = "test1@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAENpNPvp/47Z/iDb6EPAdxcbvbVmim9gpkrvhbkWin9BWxCnIifnOxnHR7i6EMXNKVg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGLUd/3W/lZw0YuQEy5uoORLKsQulc03nFpk3vncCEJrr0sWnWoSXES6XrGtJzv1mA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "14895523-aae5-4335-9831-e211cefd1533",
+                            SecurityStamp = "aa2d54a4-d2a8-4176-9030-38ed62b1cffb",
                             TwoFactorEnabled = false,
                             UserName = "test1@example.com"
                         },
                         new
                         {
-                            Id = "a38dc379-4cc1-414b-b3a2-d97f4defe8c7",
+                            Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0a31811a-34c9-4e92-b261-b587f4f25a00",
+                            ConcurrencyStamp = "c51026f8-3c38-4f14-98c4-ce3ec654d92c",
                             Email = "test2@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEA2waOgYmZdfItfjpq+K4YJz0G3nucL6sZEJ1jRQr551cZv578ONJpH7TqZITqfH0w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJbXu3fI9byGaRcX9oKsIxmRSeBlbbEOUi51PfnG55bWdJjVAO6QpXez3BDGfTKvng==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "630cb14e-ba53-4681-885b-06d68fb5433c",
+                            SecurityStamp = "4665666a-9e3a-4a84-ae62-0600ac98d284",
                             TwoFactorEnabled = false,
                             UserName = "test2@example.com"
                         },
                         new
                         {
-                            Id = "8dae27da-4dbb-4878-9c0e-f52126f53260",
+                            Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a6256859-1052-4ce2-a77a-460eaefe02eb",
+                            ConcurrencyStamp = "7abd9095-0273-4c05-8cd8-94102d6a109f",
                             Email = "test3@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEAJOgnsCqhV523ZGQG+rTXKIvFU7Yq+pO+a86OR4D3Uyaiu3C75KTvBQplG1PhA5Aw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELyyELOk379Aopk1oHzEfpBNuLxKIMsvIiiPVdLhBTKr/CS6jCQvaXi+zcfVkZh2iQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f11fc2a9-9126-4474-86b4-1db595acd409",
+                            SecurityStamp = "4beb3a68-f91c-4bdd-b165-2fe208fe4201",
                             TwoFactorEnabled = false,
                             UserName = "test3@example.com"
                         },
                         new
                         {
-                            Id = "083e1ecf-6d05-47ba-a3c2-da13d03c7e7f",
+                            Id = "4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7e75488e-e23d-4781-96d6-ef36ec92eebc",
+                            ConcurrencyStamp = "4e59e8b8-5dc5-4f40-b3b3-ae035050551a",
                             Email = "test4@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEH0PdSpKTwgYWgQlgsgbYSUNab1lbVFgJ8EoLA0peeCCqRO8Fq1XEfT9bhMmTORZEg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJQEBVrZ2wo+FnL7cnS9+FVcWg42MdPwjgPLvVR4tbOFJH+GWHsHKhSm++x1/9nA1w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7f4b7542-d036-4f7a-9892-24bb3d85ccb3",
+                            SecurityStamp = "949811fe-9a76-482f-b8e5-28ac08a8143c",
                             TwoFactorEnabled = false,
                             UserName = "test4@example.com"
                         },
                         new
                         {
-                            Id = "cde148ba-6cd1-4a42-ae62-fe25421dd77f",
+                            Id = "5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "af0f3160-dfda-4797-90ae-ef7dcf1250b2",
+                            ConcurrencyStamp = "8e33e23d-0af2-4831-ace3-f13e1d6482ad",
                             Email = "test5@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEIMfBa72/qZIJqnSMXb44LKnwouANe6HlqNx5opJToHp5UnJMRXUf0iJVV0Ny2xBzw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJvGLXDb0cxDT37Hab86uLPkPcS6HOqCdmrm4dXZ32ZCJk1xHQJwk1EA0Vmmweng3A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "577341e0-be25-4a7c-b33b-4731f29bca48",
+                            SecurityStamp = "af7dddb4-03c2-45ff-b5b6-44e8a0773f4c",
                             TwoFactorEnabled = false,
                             UserName = "test5@example.com"
                         });
