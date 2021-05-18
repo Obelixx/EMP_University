@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Services;
+
 namespace Web
 {
     public class Startup
@@ -20,7 +22,8 @@ namespace Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddEMPUniData(this.Configuration);
+            services.AddEMPUniData(this.Configuration)
+                .AddEMPUniSerivices();
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 

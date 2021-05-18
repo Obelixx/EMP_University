@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Common.Models
 {
-    public class Course
+    public class Course : IValidatableObject
     {
         [Key]
         public int Id { get; set; }
@@ -24,7 +24,7 @@ namespace Common.Models
         public DateTime Ends { get; set; }
 
         [NotMapped]
-        public TimeSpan Length
+        public TimeSpan Duration
         {
             get
             {

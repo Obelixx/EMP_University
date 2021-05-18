@@ -8,27 +8,31 @@ using System.Threading.Tasks;
 namespace Services.Paging
 {
     /// <summary>
-    /// Taken form: https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-5.0
+    /// Taken form: <c>https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-5.0</c>
     /// </summary>
-    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="T">Some Entity Framework entity.</typeparam>
     public class PaginatedList<T> : List<T>
     {
-        public int PageIndex { get; private set; }
-        public int TotalPages { get; private set; }
-
         public PaginatedList(List<T> items, int count, int pageIndex, int pageSize)
         {
             this.PageIndex = pageIndex;
+            this.PageSize = pageSize;
             this.TotalPages = (int)Math.Ceiling(count / (double)pageSize);
 
             this.AddRange(items);
         }
 
+        public int PageIndex { get; private set; }
+
+        public int PageSize { get; private set; }
+
+        public int TotalPages { get; private set; }
+
         public bool HasPreviousPage
         {
             get
             {
-                return (this.PageIndex > 1);
+                return this.PageIndex > 1;
             }
         }
 
@@ -36,7 +40,7 @@ namespace Services.Paging
         {
             get
             {
-                return (this.PageIndex < this.TotalPages);
+                return this.PageIndex < this.TotalPages;
             }
         }
 

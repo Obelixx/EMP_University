@@ -32,6 +32,10 @@
       <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
     </Compile>
+    <Compile Update="Migrations\20210517171155_SeedDemoData.cs">
+      <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
     <Compile Update="Migrations\EMPUniDbContextModelSnapshot.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
       <ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>

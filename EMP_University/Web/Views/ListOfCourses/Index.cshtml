@@ -1,0 +1,193 @@
+﻿@model ListOfCoursesViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var course = new Common.Models.Course();
+}
+
+<h1>List of courses</h1>
+
+<div id="modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>@Model.ModalMessage</p>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" class="btn btn-primary">Save changes</button>*@
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<table>
+    <tr>
+        <td>
+            <h2>Registerd:</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Description)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Duration)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Start)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Ends)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.RegisteredCourses)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Duration)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Start)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ends)
+                            </td>
+                            @*<td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>*@
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                @if (this.Model.RegisteredCourses.HasPreviousPage)
+                {
+                    <a class="btn btn-info" asp-controller="ListOfCourses" asp-action="Index" asp-route-rp="@(this.Model.RegisteredCourses.PageIndex - 1)" asp-route-nrp="@this.Model.NotRegisteredCourses.PageIndex" asp-route-rs="@this.Model.RegisteredCourses.PageSize" asp-route-nrs="@this.Model.NotRegisteredCourses.PageSize">&lt;</a>
+                }
+                else
+                {
+                    <a class="disabled btn btn-info">&lt;</a>
+                }
+                @this.Model.RegisteredCourses.PageIndex / @this.Model.RegisteredCourses.TotalPages
+                @if (this.Model.RegisteredCourses.HasNextPage)
+                {
+                    <a class="btn btn-info" asp-controller="ListOfCourses" asp-action="Index" asp-route-rp="@(this.Model.RegisteredCourses.PageIndex + 1)" asp-route-nrp="@this.Model.NotRegisteredCourses.PageIndex" asp-route-rs="@this.Model.RegisteredCourses.PageSize" asp-route-nrs="@this.Model.NotRegisteredCourses.PageSize">&gt;</a>
+                }
+                else
+                {
+                    <a class="disabled btn btn-info">&gt;</a>
+                }
+            </div>
+        </td>
+        <td>
+            <h2>Not registerd:</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Name)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Description)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Duration)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Start)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => course.Ends)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.NotRegisteredCourses)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Duration)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Start)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ends)
+                            </td>
+                            <td>
+                                @using (Html.BeginForm("Register", "ListOfCourses", item))
+                                {
+                                    <input type="submit" value="Register">
+                                }
+                                @*|
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                @if (this.Model.NotRegisteredCourses.HasPreviousPage)
+                {
+                    <a class="btn btn-info" asp-controller="ListOfCourses" asp-action="Index" asp-route-rp="@this.Model.RegisteredCourses.PageIndex" asp-route-nrp="@(this.Model.NotRegisteredCourses.PageIndex - 1)" asp-route-rs="@this.Model.RegisteredCourses.PageSize" asp-route-nrs="@this.Model.NotRegisteredCourses.PageSize">&lt;</a>
+                }
+                else
+                {
+                    <a class="disabled btn btn-info">&lt;</a>
+                }
+                @this.Model.NotRegisteredCourses.PageIndex / @this.Model.NotRegisteredCourses.TotalPages
+                @if (this.Model.NotRegisteredCourses.HasNextPage)
+                {
+                    <a class="btn btn-info" asp-controller="ListOfCourses" asp-action="Index" asp-route-rp="@this.Model.RegisteredCourses.PageIndex" asp-route-nrp="@(this.Model.NotRegisteredCourses.PageIndex + 1)" asp-route-rs="@this.Model.RegisteredCourses.PageSize" asp-route-nrs="@this.Model.NotRegisteredCourses.PageSize">&gt;</a>
+                }
+                else
+                {
+                    <a class="disabled btn btn-info">&gt;</a>
+                }
+            </div>
+        </td>
+    </tr>
+</table>
+@if (!string.IsNullOrEmpty(this.Model.ModalMessage))
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            $('#modal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+
+            $('#modal').modal('toggle');
+        }
+    </script>
+}

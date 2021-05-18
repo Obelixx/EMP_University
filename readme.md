@@ -1,4 +1,4 @@
-- Allways think about:
+- Always think about:
 	- testability
 	- reusability
 	- performance
@@ -18,12 +18,12 @@
 	- [x] Write database models.
 	- [x] (Add migrations.) They are on by default.
 	- [x] Create methods to fill demo data.
-	- [ ] Add "service" methods that provide data (for example: Courses lists with paging).
-	- [ ] A bit front-end - 4 tabs, two lists.
+	- [x] Add "service" methods that provide data (for example: Courses lists with paging).
+	- [x] A bit front-end - 4 tabs, two lists.
 
 
 - Check this:
-	- Error handling. (no unhanded exceptions)
+	- Error handling. (no un-handled exceptions)
 	
 	
 - Assumptions:
